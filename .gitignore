@@ -1,0 +1,9 @@
+# 個人資料：絕不進 Git
+data/my_state.yaml
+data/private/
+*.csv
+!tests/fixtures/*.csv
+.env
+__pycache__/
+.pytest_cache/
+PROMPT.md

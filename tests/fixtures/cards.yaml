@@ -1,0 +1,21 @@
+cards:
+  - id: flat
+    name: 平卡
+    base: 0.01
+    rules:
+      - {name: 過期活動, rate: 0.05, merchants: [過期店], end: 2026-06-30}
+      - {name: 假日大筆, rate: 0.06, any_merchant: true, holiday_only: true, min_amount: 500}
+      - {name: 海外, rate: 0.02, cats: [海外]}
+  - id: switch
+    name: 切換卡
+    base: 0.003
+    plans:
+      - {id: online, name: 網購方案, end: 2026-11-15, rules: [{name: 網購, rate: 0.03, cats: [網購]}]}
+      - {id: lp, name: LINE Pay方案, rules: [{name: LINE Pay, rate: 0.02, pay: [linepay], any_merchant: true}]}
+  - id: capped
+    name: 上限卡
+    base: 0.01
+    exclude: [全聯]
+    rules:
+      - {name: momo, rate: 0.05, cap: 20, cap_group: capped, merchants: [momo]}
+      - {name: 影音, rate: 0.05, cap: 20, cap_group: capped, merchants: [Netflix]}

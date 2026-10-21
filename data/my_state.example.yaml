@@ -1,0 +1,19 @@
+# 個人狀態範例。複製成 my_state.yaml 後修改（my_state.yaml 不會進 Git）
+
+# 持有的卡（cards.yaml 的 id）
+cards: [richart, friday, unicard, ubear, linebank, momo, cube, uniopen]
+
+# 持有的行動支付：linepay, pxpay_plus(全支付), easywallet(悠遊付), taishinpay, icashpay, jkopay
+pays: [linepay, pxpay_plus, easywallet]
+
+# 月結型方案（以月底方案計整月）：固定這個月選哪個；不寫就全部列出比較
+fixed_plans:
+  unicard: simple   # simple 簡單選 / pick 任意選 / up UP選
+
+# 已登錄 / 已領券的活動 id（campaigns.yaml）
+registered: []
+
+# 本期已用掉的加碼回饋（點/元），key = cap_group，或「卡id:規則名」
+usage:
+  unicard: 0
+  "linebank:指定網購/影音/遊戲/購票": 0

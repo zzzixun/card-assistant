@@ -1,0 +1,3 @@
+campaigns:
+  - {id: flat-711, card: flat, title: 小七登錄加碼, register: true, end: 2026-12-31,
+     rule: {rate: 0.03, merchants: [7-ELEVEN]}}

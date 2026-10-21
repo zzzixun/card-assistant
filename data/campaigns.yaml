@@ -1,0 +1,51 @@
+# 需「登錄 / 領券」的加碼活動（疊加在卡片原本回饋上）
+#   register: true → 要先登錄或領券才算；在 my_state.yaml 的 registered 列出已登錄的 id
+#   rule: 同 cards.yaml 規則格式，rate 為「額外加碼」
+#   plan: 限定在某權益方案下才有效（選填）
+# 每月初花 10 分鐘：看「待登錄」分頁 → 去 App 登錄 → 把 id 加進 my_state.yaml
+
+campaigns:
+  - id: cube-thu-dining
+    card: cube
+    plan: shop
+    title: CUBE 週四外出用餐日（單筆滿 2,000 領 5% 券）
+    register: true
+    how: CUBE App 優惠券專區領券
+    start: 2026-06-01
+    end: 2026-12-31
+    source: https://www.cardu.com.tw/message/detail.php?61476=
+    rule: {rate: 0.05, cap: 100, cats: [餐飲], weekdays: [3], min_amount: 2000}
+
+  - id: cube-watsons-online
+    card: cube
+    plan: shop
+    title: CUBE 屈臣氏官網/APP 領券 +2%
+    register: true
+    how: CUBE App 優惠券專區領券
+    end: 2026-12-31
+    rule: {rate: 0.02, merchants: [屈臣氏]}
+
+  - id: cube-linepay
+    card: cube
+    title: CUBE LINE Pay 領券 +1.7%（需切換「來支付」）
+    register: true
+    how: CUBE App 優惠券專區領券
+    end: 2026-10-31
+    rule: {rate: 0.017, cap: 50, pay: [linepay], any_merchant: true}
+
+  - id: cube-expedia
+    card: cube
+    plan: travel
+    title: CUBE Expedia / Hotels.com 專屬連結 +5%
+    register: true
+    how: CUBE App 領券並從專屬連結訂房
+    end: 2026-12-31
+    rule: {rate: 0.05, merchants: [Expedia, Hotels.com]}
+
+  - id: esun-life-insurance
+    card: unicard
+    title: 玉山 壽險保費登錄 1.1%
+    register: true
+    how: 玉山官網活動登錄
+    end: 2026-12-31
+    rule: {rate: 0.001, cats: [保費]}

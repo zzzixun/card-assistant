@@ -1,0 +1,91 @@
+# 店名別名與類別。規則裡出現過的店名會自動被認得；這裡補「別名」和「類別」。
+# 類別：餐飲 外送 超商 超市 百貨 網購 影音 海外 日本 韓國 加油 交通 藥妝 旅遊
+# accepts：店家只收的支付方式（選填，不寫 = 都收）
+# 找不到的店（例如路邊小吃），在介面上手動勾類別即可。
+
+7-ELEVEN: {aliases: [7-11, "711", 小七, 統一超商, seven], cats: [超商]}
+全家: {aliases: [全家便利商店, FamilyMart, FamilyMart全家], cats: [超商]}
+萊爾富: {aliases: [Hi-Life], cats: [超商]}
+OK超商: {aliases: [OK mart], cats: [超商]}
+全聯: {aliases: [全聯福利中心, PX Mart, 大全聯], cats: [超市], accepts: [card, pxpay_plus]}
+家樂福: {aliases: [Carrefour], cats: [超市]}
+美廉社: {cats: [超市]}
+Costco: {aliases: [好市多, 好事多], cats: [超市]}
+LOPIA: {cats: [超市]}
+
+蝦皮: {aliases: [蝦皮購物, Shopee], cats: [網購]}
+momo: {aliases: [momo購物網, 富邦媒], cats: [網購]}
+PChome: {aliases: [PChome 24h, PC home], cats: [網購]}
+酷澎: {aliases: [Coupang], cats: [網購]}
+淘寶: {aliases: [Taobao, 天貓], cats: [網購]}
+博客來: {aliases: [books.com.tw], cats: [網購]}
+Amazon: {aliases: [亞馬遜], cats: [網購]}
+iHerb: {cats: [網購]}
+SHEIN: {cats: [網購]}
+
+Netflix: {aliases: [網飛], cats: [影音]}
+Disney+: {aliases: [Disney plus, 迪士尼+], cats: [影音]}
+Spotify: {cats: [影音]}
+YouTube Premium: {aliases: [YouTube, YT Premium], cats: [影音]}
+ChatGPT: {aliases: [OpenAI, ChatGPT Plus], cats: [影音]}
+Claude: {aliases: [Anthropic], cats: [影音]}
+Steam: {cats: [影音]}
+
+Uber Eats: {aliases: [UberEats, 優食], cats: [外送]}
+foodpanda: {aliases: [熊貓, 空腹熊貓, food panda], cats: [外送]}
+Uber: {aliases: [Uber 叫車], cats: [交通]}
+高鐵: {aliases: [台灣高鐵, THSR], cats: [交通]}
+臺鐵: {aliases: [台鐵, 臺灣鐵路, TRA], cats: [交通]}
+LINE GO: {aliases: [LINE TAXI, LINEGO], cats: [交通]}
+台灣大車隊: {aliases: ["55688"], cats: [交通]}
+台灣中油: {aliases: [中油, CPC], cats: [加油]}
+台塑石油: {aliases: [台塑加油站], cats: [加油]}
+
+星巴克: {aliases: [Starbucks], cats: [餐飲]}
+麥當勞: {aliases: [McDonald's, 麥當當, 麥噹噹], cats: [餐飲]}
+肯德基: {aliases: [KFC], cats: [餐飲]}
+必勝客: {aliases: [Pizza Hut], cats: [餐飲]}
+50嵐: {aliases: [五十嵐], cats: [餐飲]}
+海底撈: {cats: [餐飲]}
+八方雲集: {cats: [餐飲]}
+鼎泰豐: {cats: [餐飲]}
+王品: {aliases: [王品瘋Pay, 王品集團], cats: [餐飲]}
+瓦城: {cats: [餐飲]}
+爭鮮: {cats: [餐飲]}
+饗饗: {aliases: [饗饗 INPARADISE], cats: [餐飲]}
+屋馬燒肉: {aliases: [屋馬], cats: [餐飲]}
+茶六燒肉堂: {aliases: [茶六], cats: [餐飲]}
+得正: {cats: [餐飲]}
+龜記: {aliases: [龜記茗品], cats: [餐飲]}
+五桐號: {cats: [餐飲]}
+COMPOSE COFFEE: {cats: [餐飲]}
+"%Arabica": {aliases: [Arabica], cats: [餐飲]}
+
+康是美: {aliases: [Cosmed], cats: [藥妝]}
+屈臣氏: {aliases: [Watsons], cats: [藥妝]}
+寶雅: {aliases: [POYA], cats: [藥妝]}
+大樹藥局: {cats: [藥妝]}
+
+新光三越: {aliases: [SKM, 新光三越百貨], cats: [百貨]}
+遠東SOGO: {aliases: [SOGO, 太平洋SOGO], cats: [百貨]}
+遠東百貨: {aliases: [遠百], cats: [百貨]}
+微風: {aliases: [微風廣場, Breeze], cats: [百貨]}
+台北101: {aliases: ["101"], cats: [百貨]}
+誠品生活: {aliases: [誠品], cats: [百貨]}
+三井Outlet: {aliases: [MITSUI OUTLET PARK, 三井 outlet], cats: [百貨]}
+LaLaport: {aliases: [Mitsui Shopping Park LaLaport, 南港lalaport], cats: [百貨]}
+統一時代百貨: {aliases: [統一時代, Uni-Ustyle], cats: [百貨]}
+IKEA: {aliases: [宜家], cats: [百貨]}
+UNIQLO: {aliases: [優衣庫], cats: [百貨]}
+
+Agoda: {cats: [旅遊]}
+Booking.com: {aliases: [Booking], cats: [旅遊]}
+Klook: {aliases: [客路], cats: [旅遊]}
+KKday: {cats: [旅遊]}
+Trip.com: {aliases: [攜程, 携程], cats: [旅遊]}
+中華航空: {aliases: [華航, China Airlines], cats: [旅遊]}
+長榮航空: {aliases: [長榮, EVA Air], cats: [旅遊]}
+星宇航空: {aliases: [星宇, STARLUX], cats: [旅遊]}
+
+日本消費: {aliases: [日本, 東京, 大阪, 京都, 福岡, 北海道, 唐吉訶德日本, 日本實體], cats: [日本]}
+韓國消費: {aliases: [韓國, 首爾, 釜山], cats: [韓國]}

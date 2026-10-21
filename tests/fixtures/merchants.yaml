@@ -1,0 +1,5 @@
+7-ELEVEN: {aliases: [7-11, 小七], cats: [超商]}
+蝦皮: {cats: [網購]}
+momo: {cats: [網購]}
+東京: {cats: [日本]}
+全聯: {cats: [超市], accepts: [card, pxpay_plus]}

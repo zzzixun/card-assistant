@@ -1,0 +1,318 @@
+# 信用卡規則庫（公開資料，可進 Git）
+# 欄位說明見 README。重點：
+#   base: 基本回饋率；rate: 該規則「總」回饋率（stack: true 時為額外疊加）
+#   cap: 加碼部分的回饋上限（點/元），cap_group 相同者共用額度
+#   pay: 適用支付方式，預設 [card]（實體卡 / Apple Pay / Google Pay）
+#        linepay, pxpay_plus(全支付), easywallet(悠遊付), taishinpay, icashpay, jkopay
+#   merchants / cats / any_merchant: 適用店家 / 類別 / 全通路
+#   plans: 需「切換權益」的方案；verify: true = 資料來自第三方整理，待官網確認
+#   假設：台新 LEVEL 2、國泰 Level 2、玉山已設定自動扣繳（都要「台幣帳戶自動扣繳卡費」）
+# 最後整理：2026-10-22
+
+holidays: [2026-12-25, 2027-01-01]   # 國定假日（週末自動算），假日刷用
+
+cards:
+  # ───────────────────────── 台新 Richart（切換型） ─────────────────────────
+  - id: richart
+    name: 台新 Richart 卡
+    base: 0.003
+    start: 2026-07-01
+    end: 2026-12-31
+    switch: "Richart Life App → 切換刷，可隨時切換"
+    source: https://www.cardu.com.tw/message/detail.php?58136=
+    note: 各方案每期帳單加碼適用金額以「永久額度 + 30 萬」為限
+    plans:
+      - id: chill
+        name: Chill刷
+        note: Chill刷切換開放期間各來源說法不一（9/30 或 12/31），請確認
+        rules:
+          - name: 歡聚微醺/日常續命
+            rate: 0.10
+            cats: []
+            merchants: [詹記麻辣火鍋, 萬客什鍋, 海底撈, 屋馬燒肉, 茶六燒肉堂, 新村站著吃, 燒肉政宗,
+                        碳佐麻里, 雞湯大叔, 貳樓, 樂子the Diner, 臺虎精釀, Draft Land,
+                        50嵐, 得正, 八曜和茶, 五桐號, 龜記, UG TEA, 叮哥茶飲, CAFE!N, "%Arabica", COMPOSE COFFEE]
+          - name: 約會犒賞/追星/追劇/營養/健身/運動品牌
+            rate: 0.05
+            merchants: [饗饗, NAGOMI, WEVERSE, BOOK WALKER, Animate, 樂天KOBO, Readmoo, 巴哈姆特,
+                        Netflix, Disney+, 愛爾達, MYPROTEIN, Anytime Fitness, 健身工廠, World Gym,
+                        adidas, New Balance, PUMA, Onitsuka Tiger, Nike, HOKA, Salomon, lululemon]
+          - name: 數位外掛
+            rate: 0.033
+            merchants: [Samsung, Apple直營, DJI, Insta360, GoPro, 蝦皮, 淘寶, 酷澎, Uber Eats]
+      - id: pay
+        name: Pay著刷
+        rules:
+          - name: LINE Pay / 全盈+Pay 綁定
+            rate: 0.023
+            pay: [linepay]
+            any_merchant: true
+            exclude_cats: [超商]
+            note: 四大超商、繳稅費不回饋
+          - name: 台新Pay 綁定特約通路
+            rate: 0.038
+            pay: [taishinpay]
+            any_merchant: true
+      - id: daily
+        name: 天天刷
+        rules:
+          - name: 日常/交通/加油/藥妝
+            rate: 0.033
+            merchants: [萬家福, 樂家康, 大買家, 唐吉訶德, LOPIA, 臺鐵, 高鐵, 台灣大車隊, LINE GO, Yoxi,
+                        Uber, Bolt, 台灣中油, 全國加油, EVOASIS, EVALUE, USPACE, 車麻吉,
+                        寶雅, 康是美, 屈臣氏, 杏一, 大樹藥局, 丁丁藥局, 佑全, 健康人生]
+          - name: 超商（限台新Pay）
+            rate: 0.033
+            pay: [taishinpay]
+            merchants: [全家, 7-ELEVEN]
+      - id: big
+        name: 大筆刷
+        rules:
+          - name: 百貨/Outlet/居家/服飾
+            rate: 0.033
+            merchants: [新光三越, 遠東百貨, 遠東SOGO, 漢神巨蛋, 漢神百貨, 微風, 台北101, 遠東巨城, 廣三SOGO,
+                        南紡購物中心, 誠品生活, 京站, 三創生活, 夢時代, 統一時代百貨, 中友百貨, LaLaport,
+                        三井Outlet, 華泰名品城, SKM Park, IKEA, 特力屋, HOLA, 宜得利, 瑪黑家居,
+                        UNIQLO, GU, ZARA, NET, lululemon]
+      - id: food
+        name: 好饗刷
+        rules:
+          - name: 餐飲/外送/購票/飯店/KTV
+            rate: 0.033
+            cats: [餐飲, 外送]
+            merchants: [王品, 拓元售票, KKTIX, 年代售票, 寬宏售票, OPENTIX, FunNow, 晶華酒店, 雲朗觀光,
+                        老爺酒店, 福華飯店, 漢來飯店, 錢櫃, 好樂迪]
+            note: 不含餐券
+      - id: digital
+        name: 數趣刷
+        rules:
+          - name: 網購/課程/遊戲影音/AI
+            rate: 0.033
+            merchants: [蝦皮, momo, 酷澎, PChome, 淘寶, Amazon, 東森購物, 博客來, iHerb, SHEIN, Olive Young,
+                        Hahow, MyCard, Steam, PlayStation, Nintendo, Netflix, Disney+,
+                        ChatGPT, Notion, Canva, Perplexity, Claude]
+      - id: travel
+        name: 玩旅刷
+        rules:
+          - name: 海外/航空/訂房/旅行社
+            rate: 0.033
+            cats: [海外]
+            merchants: [中華航空, 長榮航空, 星宇航空, 台灣虎航, 國泰航空, 樂桃航空, 日本航空, 酷航,
+                        Klook, KKday, Agoda, Booking.com, Trip.com, Airbnb, Hotels.com, Expedia,
+                        雄獅旅遊, 易遊網, 東南旅遊, 可樂旅遊, 五福旅遊]
+            note: 海外消費另有 1.5% 國外手續費
+      - id: holiday
+        name: 假日刷
+        note: 是否需切換各來源說法不一
+        rules:
+          - name: 假日不限通路
+            rate: 0.02
+            pay: [card, linepay]
+            any_merchant: true
+            holiday_only: true
+            exclude_cats: [超商]
+
+  # ───────────────────────── 國泰 CUBE（切換型） ─────────────────────────
+  - id: cube
+    name: 國泰 CUBE 卡
+    base: 0.003
+    start: 2026-07-01
+    end: 2026-12-31
+    switch: "CUBE App → 權益切換，每天可切 1 次（以消費日權益計）"
+    source: https://www.beurlife.com/2021/08/cathay-bank-cube-credit-card.html
+    plans:
+      - id: digital
+        name: 玩數位
+        rules:
+          - name: AI/影音/網購
+            rate: 0.03
+            merchants: [ChatGPT, Canva, Claude, Cursor, Duolingo, Gemini, Notion, Perplexity,
+                        Apple媒體服務, Google Play, Disney+, Netflix, Spotify, YouTube Premium, Max,
+                        蝦皮, momo, PChome, 酷澎, 淘寶]
+      - id: shop
+        name: 樂饗購
+        rules:
+          - name: 百貨/餐飲/藥妝/外送
+            rate: 0.03
+            cats: [餐飲]
+            merchants: [遠東SOGO, 遠東巨城, 太平洋百貨, 新光三越, SKM Park, 微風, 遠東百貨, 誠品生活,
+                        環球購物中心, 統一時代百貨, 台北101, ATT 4 FUN, 京站, 美麗華, 大葉高島屋, 中友百貨,
+                        廣三SOGO, 南紡購物中心, 夢時代, 漢神百貨, 漢神巨蛋, 三井Outlet, LaLaport, 華泰名品城,
+                        秀泰生活, 台茂購物中心, 宏匯廣場,
+                        星巴克, 麥當勞, 50嵐, 八方雲集, 康是美, 屈臣氏, 日藥本舖, Tomod's, Uber Eats, foodpanda]
+      - id: travel
+        name: 趣旅行
+        rules:
+          - name: 海外/交通/航空/訂房
+            rate: 0.03
+            cats: [海外]
+            merchants: [高鐵, Uber, Grab, Yoxi, 台灣大車隊, LINE GO, iRent, 和運租車, 格上租車,
+                        中華航空, 長榮航空, 星宇航空, 台灣虎航, 國泰航空, 樂桃航空, 日本航空, ANA, 酷航,
+                        KKday, Klook, Agoda, Airbnb, Booking.com, Trip.com, AsiaYo, 雄獅旅遊, 易遊網, 可樂旅遊,
+                        東南旅遊, 五福旅遊]
+            note: 海外另有 1.5% 國外手續費
+      - id: select
+        name: 集精選
+        rules:
+          - name: 超商/超市/加油/充電停車
+            rate: 0.02
+            merchants: [7-ELEVEN, 全家, 家樂福, LOPIA, 全聯, 台灣中油, IKEA, 新光三越, 統一時代百貨,
+                        Apple媒體服務, U-POWER, EVOASIS, EVALUE, iCharging, 車麻吉, uTagGo]
+            note: 全聯限實體卡/PX Pay；中油排除中油Pay
+      - id: pxpay
+        name: 全支付
+        rules:
+          - name: 全支付綁定 CUBE
+            rate: 0.02
+            pay: [pxpay_plus]
+            any_merchant: true
+      - id: formosa
+        name: 台塑家
+        rules:
+          - name: 台塑加油/超商
+            rate: 0.02
+            merchants: [台塑石油, 台亞, 福懋, 統一速邁樂, 7-ELEVEN, 全家, 萊爾富, 台塑購物網]
+      - id: japan
+        name: 日本賞（秋日遊）
+        start: 2026-10-01
+        end: 2026-11-30
+        rules:
+          - name: 日本實體消費
+            rate: 0.035
+            cats: [日本]
+
+  # ───────────────────────── 玉山 Unicard（月選方案） ─────────────────────────
+  - id: unicard
+    name: 玉山 Unicard
+    base: 0.01
+    start: 2026-07-01
+    end: 2026-12-31
+    switch: "玉山 Wallet → Unicard 方案，每月最多切 30 次，以「月底最後一天」的方案計算整月"
+    source: https://moneymate.space/esun-uni-card-intro/
+    plans:
+      - id: simple
+        name: 簡單選
+        rules:
+          - &u100
+            name: 百大指定
+            rate: 0.03
+            cap: 1000
+            cap_group: unicard
+            cats: [海外]
+            merchants: &u100m [台灣中油, 台灣大車隊, 臺鐵, 高鐵, Uber, Yoxi,
+                        新光三越, 遠東百貨, 漢神百貨, 微風, 台北101, 華泰名品城, 三井Outlet, 京站, 美麗華,
+                        誠品生活, 秀泰生活, LaLaport, 統一時代百貨, 昇恆昌,
+                        Uber Eats, foodpanda, EZTABLE, 王品, 饗賓餐飲, 瓦城, 乾杯燒肉, 漢來美食, 鼎王, 爭鮮,
+                        中華航空, 長榮航空, 日本航空, 台灣虎航, 樂桃航空, 酷航, Trip.com, Booking.com,
+                        Hotels.com, AsiaYo, Expedia, KKday, Klook, 雄獅旅遊, 可樂旅遊, 東南旅遊, Agoda,
+                        Apple直營, 小米, 全國電子, 燦坤, 迪卡儂, 家樂福, 屈臣氏, 康是美, 特力屋, HOLA,
+                        UNIQLO, NET, 大樹藥局, momo, 蝦皮, 淘寶, 酷澎, 特斯拉, Gogoro, YouBike]
+            note: 海外限名單內 17 國（歐盟僅部分國家）
+          - &u100pay
+            name: 百大-行動支付
+            rate: 0.03
+            cap: 1000
+            cap_group: unicard
+            pay: [linepay, pxpay_plus, easywallet, jkopay, icashpay]
+            any_merchant: true
+            note: 透過電子支付不會被認成個別特店，算「行動支付」類
+      - id: pick
+        name: 任意選
+        note: 只限自選的 8 家百大特店
+        rules:
+          - {<<: *u100, rate: 0.035}
+          - {<<: *u100pay, rate: 0.035}
+      - id: up
+        name: UP選
+        note: 需 149 點訂閱（上月刷滿 3 萬且資產 30 萬可免費）
+        rules:
+          - {<<: *u100, rate: 0.045, cap: 5000, cap_group: unicard_up}
+          - {<<: *u100pay, rate: 0.045, cap: 5000, cap_group: unicard_up}
+
+  # ───────────────────────── 玉山 U Bear ─────────────────────────
+  - id: ubear
+    name: 玉山 U Bear
+    base: 0.01
+    verify: true
+    source: https://www.money101.com.tw/信用卡/產品/玉山銀行ubear信用卡
+    rules:
+      - name: 網路消費
+        rate: 0.03
+        cats: [網購]
+        note: 網路加碼 2%，上限請確認
+      - name: 指定影音/AI/遊戲
+        rate: 0.10
+        cap: 100
+        merchants: [Netflix, ChatGPT, Gemini, Steam, Nintendo, PlayStation]
+
+  # ───────────────────────── 台新 遠傳 friDay 聯名卡 ─────────────────────────
+  - id: friday
+    name: 台新 遠傳friDay卡
+    base: 0.005
+    verify: true
+    end: 2027-01-31
+    source: https://www.cashfeel.com.tw/article/台新遠傳-friday-卡-權益升級-回饋攻略
+    rules:
+      - name: 週二/週五會員日指定通路
+        rate: 0.05
+        cap: 1500
+        weekdays: [1, 4]
+        merchants: [遠傳門市, friDay購物, friDay影音, 肯德基, 必勝客, EZTABLE, Trip.com, Klook, Agoda]
+        note: 2026 新版通路名單未確認
+
+  # ───────────────────────── 聯邦 LINE Bank 聯名卡 ─────────────────────────
+  - id: linebank
+    name: 聯邦 LINE Bank 聯名卡
+    base: 0.01
+    start: 2026-08-01
+    end: 2027-07-31
+    exclude: [全聯]
+    exclude_cats: [超商]
+    source: https://www.beurlife.com/2023/07/linebank-ubot-sc-credit-card.html
+    rules:
+      - name: 海外消費
+        rate: 0.025
+        cats: [海外]
+      - name: 指定網購/影音/遊戲/購票
+        rate: 0.04
+        cap: 300
+        merchants: [momo, PChome, 淘寶, 蝦皮, 酷澎, Netflix, Disney+, CatchPlay, Spotify, LINE TV, KKTV,
+                    KKBOX, Steam, PlayStation, Nintendo, MyCard, 拓元售票, KKTIX]
+        note: 建議直接輸入卡號，經第三方支付可能不認列
+
+  # ───────────────────────── 富邦 momo 卡 ─────────────────────────
+  - id: momo
+    name: 富邦 momo 卡
+    base: 0.01
+    verify: true
+    source: https://roo.cash/creditcard/info/fubon-momo
+    rules:
+      - name: momo 站內
+        rate: 0.03
+        cap: 1000
+        merchants: [momo]
+        note: 回饋為 mo幣；綁第三方支付於 momo 只算 1%
+
+  # ───────────────────────── 中信 uniopen 聯名卡 ─────────────────────────
+  - id: uniopen
+    name: 中信 uniopen 聯名卡
+    base: 0.01
+    verify: true
+    start: 2026-09-01
+    end: 2026-12-31
+    source: https://www.money101.com.tw/blog/中信uniopen聯名卡-2026
+    rules:
+      - name: 統一企業集團
+        rate: 0.03
+        cap: 500
+        pay: [card, icashpay]
+        merchants: &uni [7-ELEVEN, 康是美, 星巴克, 家樂福, 博客來, 統一時代百貨, 夢時代, 統一速邁樂,
+                         Mister Donut, Cold Stone, 21世紀風味館]
+        note: 回饋為 OPENPOINT；另有跨品牌踩點任務最高 +4%
+      - name: icash Pay 加碼
+        stack: true
+        rate: 0.04
+        cap: 150
+        min_amount: 199
+        pay: [icashpay]
+        merchants: *uni
