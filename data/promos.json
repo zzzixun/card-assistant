@@ -1,0 +1,1821 @@
+[
+ {
+  "id": "66415",
+  "title": "ITF國際旅展用LINE Pay　天天領520元優惠券",
+  "start": "2026-11-06",
+  "end": "2026-11-09",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66415",
+  "published": "2026-11-05",
+  "source": "https://web-tw-pay.line.me/svc/event/display2/5df8b961-43f7-4806-994f-51f7932714ef#all",
+  "summary": "作者：張雅欣\n　　迎接聖誕及跨年連假旅遊季，「\n2026 ITF台灣國際旅展\n」於11/6至11/9在台北南港展覽館一館盛大登場， \nLINE Pay\n除了每日於展區（攤位編號J104）舉辦舞台活動並提供520元優惠券，還推出星宇航空及老爺酒店的限時優惠。旅展全場合作商店使用LINE Pay付款，單筆消費滿100元達兩",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "uniopen"
+  ],
+  "any_card": false,
+  "max_rate": 0.06,
+  "min_amount": 100,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "LaLaport",
+   "星宇航空",
+   "老爺酒店"
+  ]
+ },
+ {
+  "id": "66165",
+  "title": "元大信用卡綁Apple Pay 20%回饋　旅展享三重刷卡滿額禮",
+  "start": null,
+  "end": "2026-11-09",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/message/detail.php?66165",
+  "published": "2026-10-22",
+  "source": null,
+  "summary": "作者：張雅欣\n官方授權申辦\n　　旅遊旺季到來，元大銀行信用卡提供基本回饋國內一般消費最高\n1.2%\n、海外消費最高\n2.2%\n現金回饋無上限，以及活動期間首次綁定\nApple Pay\n並完成官網登錄，一般消費筆筆可享\n20%\n刷卡金回饋，每戶最高享\n200\n元刷卡金，無論在國內採購旅遊商品或出國消費，都享有回饋。\n　　",
+  "pays": [
+   "applepay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "Klook",
+   "家樂福",
+   "樂家康",
+   "萬家福",
+   "遠東百貨"
+  ]
+ },
+ {
+  "id": "66247",
+  "title": "萊爾富嗶悠遊滿額贈　指定商品兌換券",
+  "start": null,
+  "end": "2026-11-10",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66247",
+  "published": "2026-10-29",
+  "source": "https://www.easycard.com.tw/offer?cls=1506473503,1508721809,1506473490,&id=1791359075",
+  "summary": "2026-10-14 ~ 2026-11-10\n於萊爾富使用悠遊卡或悠遊付單筆滿新臺幣\n150\n元\n(\n含\n)\n以上者，隨機贈商品兌換券\n1\n張\n(\n兌換券品項：茶葉蛋、三麗鷗加厚純水濕紙巾\n80\n抽、什麼丸意兒休閒丸子\n50g\n、光泉原味鮮豆漿、中杯拿鐵咖啡\n)\n，單筆不累贈，總限量\n31,000\n份，贈完即止。\n※",
+  "pays": [
+   "easycard"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "萊爾富"
+  ]
+ },
+ {
+  "id": "66009",
+  "title": "全支付攜雄獅旅展最高送800全點　遊韓搭釜山公車享免手續費",
+  "start": null,
+  "end": "2026-11-10",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66009",
+  "published": "2026-10-15",
+  "source": null,
+  "summary": "作者：張雅欣\n　　全支付旅遊支付服務再升級！宣布首度跨界攜手「雄獅旅遊」搶先祭出旅展限時優惠，即日起至11月10日，凡先於全支付App完成活動登錄後，至雄獅旅遊官網或App使用全支付付款，單筆滿額最高可獲得800全點。\n　　同時，赴韓旅客搭乘釜山公車現已支援全支付掃碼付款，國人赴韓旅遊再也不需預先儲值實體交通卡或準備零",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.035,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "雄獅旅遊"
+  ]
+ },
+ {
+  "id": "66387",
+  "title": "LG官方線上商城 x LINE Pay　單筆滿額享15%回饋",
+  "start": null,
+  "end": "2026-11-12",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66387",
+  "published": "2026-11-05",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/2a7d283a-0431-4f96-a525-99d6645315cd",
+  "summary": "即日起~2026/11/12，於LG官方線上商城消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡付款，且單筆交易實際支付金額滿新台幣5,000元，享\nLINE POINTS 15%\n回饋。\n(每LINE Pay帳號單筆交易最高限得750點；限量 4 萬點，發完為止。)\n前往LG官方線上商城\n【",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "uniopen"
+  ],
+  "any_card": true,
+  "max_rate": 0.15,
+  "min_amount": 5000,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66338",
+  "title": "韓國OLIVE YOUNG刷台新卡　LINE Pay付款最高享8%",
+  "start": null,
+  "end": "2026-11-12",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/message/detail.php?66338",
+  "published": "2026-11-03",
+  "source": null,
+  "summary": "官方授權申辦\n2026-11-01~2026-11-12於韓國OLIVE YOUNG使用 LINE Pay 綁定\n台新銀行信用卡\n消費享以下優惠：(以下幣別為新臺幣)\r\n活動一　實體門市最高享\n8%\n2026/11/1-11/7\n至【韓國\nOLIVE YOUNG\n實體門市】，使用\n LINE Pay \n付款：\n●綁定台",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "friday",
+   "richart"
+  ],
+  "any_card": false,
+  "max_rate": 0.08,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "Olive Young"
+  ]
+ },
+ {
+  "id": "66292",
+  "title": "allyoung官網 x LINE Pay　消費享LINE POINTS 15%回饋",
+  "start": null,
+  "end": "2026-11-12",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66292",
+  "published": "2026-11-02",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/e72d70b0-08fd-4cd4-8f04-0326806f4188",
+  "summary": "即日起~2026/11/12，於allyoung官網消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡或LINE Pay Money帳戶付款，享\nLINE POINTS 15%\n回饋。\n(每LINE Pay帳號最高限得120點。)\n※回饋點數將自付款成功24小時起陸續發放。\n前往allyoung",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.15,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "66264",
+  "title": "HOLA和樂家居 x LINE Pay　消費享LINE POINTS 10%回饋",
+  "start": null,
+  "end": "2026-11-12",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66264",
+  "published": "2026-10-30",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/868e6f20-48e4-479c-ae15-8c672945e6eb",
+  "summary": "即日起~2026/11/12，於HOLA和樂家居官網消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡或LINE Pay Money帳戶付款，享LINE POINTS 10%回饋。\n(每LINE Pay帳號單筆交易最高限得100點；每LINE Pay帳號限回饋1次。)\n前往HOLA\n※回饋點數將",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "HOLA"
+  ]
+ },
+ {
+  "id": "66386",
+  "title": "正官庄 x LINE Pay　單筆滿額享11%回饋",
+  "start": null,
+  "end": "2026-11-13",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66386",
+  "published": "2026-11-05",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/7a79a89b-6c5e-4aa9-8302-f2e3075f22ee",
+  "summary": "即日起~2026/11/13，於正官庄官網消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡付款，且單筆交易實際支付金額滿新台幣 5,000元，享\nLINE POINTS 11%\n回饋。\n(總回饋點數限量10萬點。)\n前往正官庄\n※回饋點數將自付款成功24小時起陸續發放。",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.11,
+  "min_amount": 5000,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66378",
+  "title": "街口雙11四天優惠接力登場！攜手六大電商平台優惠齊發",
+  "start": "2026-11-10",
+  "end": "2026-11-13",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66378",
+  "published": "2026-11-04",
+  "source": "https://mkt.jkopay.com/zh-TW/event/jko20261111",
+  "summary": "作者：張雅欣\n　　一年一度的雙\n11\n購物盛事即將登場，街口支付今年特別打造「街口雙\n11\n作戰基地」，集結淘寶、酷澎、\nmomo\n、\nPChome\n、蝦皮購物及\n91APP\n六大電商平台，自\n11\n月\n10\n日至\n13\n日推出連續四天的超高回饋，從暖身部署、雙\n11\n正式作戰到返場補給，天天都有好康可以搶！其中，\n1",
+  "pays": [
+   "jkopay"
+  ],
+  "cards": [
+   "friday",
+   "richart"
+  ],
+  "any_card": false,
+  "max_rate": 0.32,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "PChome",
+   "Trip.com",
+   "momo",
+   "淘寶",
+   "蝦皮",
+   "酷澎"
+  ]
+ },
+ {
+  "id": "66293",
+  "title": "森歐黎漾 x LINE Pay　消費享LINE POINTS 11%回饋",
+  "start": null,
+  "end": "2026-11-13",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66293",
+  "published": "2026-11-02",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/023b7454-a146-4c25-b213-340a489048f6",
+  "summary": "即日起~2026/11/13，於SAHOLEA森歐黎漾官網消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡付款，享\nLINE POINTS 11％\n回饋。\n(每LINE Pay帳號單筆交易最高限得100點。)\n※回饋點數將自付款成功24小時起陸續發放。\n前往SAHOLEA森歐黎漾官網",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.11,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65959",
+  "title": "南門市場三週年感謝祭　悠遊付滿額最高30%回饋",
+  "start": null,
+  "end": "2026-11-15",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65959",
+  "published": "2026-10-13",
+  "source": null,
+  "summary": "作者：張雅欣\n　　南門市場三週年感謝祭熱鬧登場，攜手悠遊卡公司推出「南門週年感謝祭\n-\n悠遊付滿額最高享\n30%\n回饋」優惠活動，自即日起至\n11\n月\n15\n日止，於台北市南門市場活動指定店家使用悠遊付結帳，單筆滿\n200\n元可享\n20%\n回饋金，不論是日常買菜或到市場外帶人氣美食，都能使用悠遊付結帳，即享好康回饋！\n",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.3,
+  "min_amount": 200,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65973",
+  "title": "麥當勞嗶悠遊卡　滿額贈蛋捲冰淇淋",
+  "start": null,
+  "end": "2026-11-18",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65973",
+  "published": "2026-10-15",
+  "source": "https://www.mcdonalds.com/tw/zh-tw/digital/payment/easycard.html",
+  "summary": "2026/10/8-11/18\n活動期間於麥當勞餐廳使用記名悠遊卡單筆消費滿\n150\n元，即可於悠遊付優惠券票夾獲得「蛋捲冰淇淋\n(\n小\n)\n」兌換券\n1\n張。\n*\n兌換券使用期限至\n2026/12/20(\n日\n)\n◎注意事項：\n                                       \t\t\t \t ",
+  "pays": [
+   "easycard"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 150,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "麥當勞"
+  ]
+ },
+ {
+  "id": "66381",
+  "title": "東門中繼市場開幕慶　悠遊付消費最高13%回饋金",
+  "start": null,
+  "end": "2026-11-30",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66381",
+  "published": "2026-11-04",
+  "source": null,
+  "summary": "作者：張雅欣\n　　歡慶東門中繼市場開幕，悠遊卡公司攜手東門市場推出「東門中繼市場開幕慶」優惠活動，即日起至\n11\n月\n30\n日止，民眾於活動指定店家使用悠遊付結帳，不限消費金額，每筆皆可享\n10%\n悠遊付回饋金；若於活動期間首次註冊成為悠遊付會員，還可領取\n50\n元現金回饋券一張。\n　　即日起至\n11\n月\n30\n日止，",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.13,
+  "min_amount": null,
+  "cap": 200,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "66208",
+  "title": "悠遊付繳納地價稅　筆筆3%滿額最高回饋7%",
+  "start": "2026-10-28",
+  "end": "2026-11-30",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66208",
+  "published": "2026-10-27",
+  "source": "https://www.easycard.com.tw/offer?cls=1506473490,1506473503,&id=1784184075",
+  "summary": "作者：張雅欣\n　　地價稅將於\n11\n月開徵，為了幫納稅人減輕負擔，自\n2026\n年\n10\n月\n28\n日起至\n11\n月\n30\n日止，悠遊卡公司推出「悠遊付繳納地價稅」優惠活動，民眾使用悠遊付繳納地價稅，每筆扣款享\n3%\n悠遊付回饋金，還可同享銀行加碼回饋、早鳥滿額贈、滿額回饋禮及高額滿額禮等多重優惠活動，讓繳稅既便利，回",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [
+   "ubear",
+   "unicard"
+  ],
+  "any_card": false,
+  "max_rate": 0.07,
+  "min_amount": 5000,
+  "cap": 50,
+  "register": true,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66287",
+  "title": "一卡通 iPASS MONEY繳地價稅　「50元數位券」領取攻略",
+  "start": null,
+  "end": "2026-12-03",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66287",
+  "published": "2026-10-30",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGNQMTS7KZ64g6ApJ",
+  "summary": "作者：張雅欣\n　　115 \n年地價稅開徵，一卡通公司推出繳納\n地價稅\n限時限量回饋活動，即日起至\n 12 \n月\n 3 \n日止，只要在一卡通\n iPASS MONEY APP \n開通「數位券錢包」，並透過指定路徑掃\n QR code \n繳納任一筆地價稅，即可獲得\n 50 \n元「數位券」\n1 \n張，活動限量\n 25,000",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66344",
+  "title": "玉山Wallet樂掃全家　掃2筆50元週週送",
+  "start": "2026-11-02",
+  "end": "2026-12-06",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/message/detail.php?66344",
+  "published": "2026-11-03",
+  "source": null,
+  "summary": "官方授權申辦\n2026/11/2 (\n一\n) ~ 2026/12/6 (\n日\n) \n持\n玉山銀行信用卡\n使用玉山\nWallet\n電子支付，當週至全家便利商店使用玉山\nWallet\n出示\nTWQR\n付款條碼，完成不限金額任\n2\n筆消費，即贈全家\n50\n元購物金！\n※\n每週一開放領取當週登錄券，活動共\n5\n週，每週限量\n1",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [
+   "ubear",
+   "unicard"
+  ],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "全家"
+  ]
+ },
+ {
+  "id": "65865",
+  "title": "Agoda x LINE Pay　週一消費最高享12%回饋",
+  "start": null,
+  "end": "2026-12-28",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65865",
+  "published": "2026-10-08",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/c0dbe0e1-708c-4e2c-a302-2ae8487ef5fe",
+  "summary": "即日起~2026/12/28，透過Agoda x LINE Pay專屬網站訂房並使用LINE Pay付款享以下優惠：\n優惠一\n：\n每週一單筆消費不限金額享LINE POINTS 6%回饋。\n(每LINE Pay帳號每月最高限得600點。每月限量50萬點，發完為止。)\n優惠二\n(Agoda加碼)：\n單筆消費不限金額再享L",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.12,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "Agoda"
+  ]
+ },
+ {
+  "id": "65824",
+  "title": "萬家福/樂家康門市刷LINE Pay　消費滿額享8%回饋",
+  "start": null,
+  "end": "2026-12-28",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65824",
+  "published": "2026-10-06",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/7df2c5f5-94c9-4bc0-904e-0268b6c23d7e",
+  "summary": "2026/10/05~2026/12/28，每週一於萬家福/樂家康門市現場消費，結帳時透過LINE Pay條碼並選擇使用已綁定的任一發卡銀行信用卡或簽帳金融卡付款，享以下優惠：\n優惠一\n：\n單筆交易實際支付金額滿新台幣600元(LINE POINTS及優惠券折抵金額不計入)，享\nLINE POINTS 8%\n回饋。\n(",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.08,
+  "min_amount": 600,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "樂家康",
+   "萬家福"
+  ]
+ },
+ {
+  "id": "65864",
+  "title": "寶雅週三刷LINE Pay　消費滿額享3%回饋",
+  "start": null,
+  "end": "2026-12-30",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65864",
+  "published": "2026-10-07",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/6bed4951-cd76-46f4-b107-94f111e68c2e",
+  "summary": "即日起~2026/12/30，每週三於寶雅實體獨立門市現場消費，結帳時透過LINE Pay條碼並使用已綁定的任一發卡銀行信用卡/簽帳金融卡或LINE Pay Money餘額付款，且單筆交易實際支付滿新台幣650元，享\nLINE POINTS 3％\n回饋。\n(每LINE Pay帳號每月最高限得30點。每月限量70萬點，發",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": true,
+  "max_rate": 0.03,
+  "min_amount": 650,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "寶雅",
+   "高鐵"
+  ]
+ },
+ {
+  "id": "66321",
+  "title": "vivo全新機款啟用Google錢包™　一卡通送250元儲值金",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66321",
+  "published": "2026-11-03",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGOIETW6YV64rmNDW",
+  "summary": "2026.10.30 - 2026.12.31\n於活動期間購買\n vivo X500 \n系列、\nvivo X Fold6 \n使用\n Google \n錢包\n™\n啟用一卡通功能，即可獲得一卡通儲值金\n250\n元，數量有限送完為止。\n搭乘全台大眾運輸，享一卡通綠點\n 10 \n倍送！\n活動期間：\n2026.07.01 - 20",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66246",
+  "title": "7-ELEVEN 嗶悠遊卡　結帳滿500現折50元",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66246",
+  "published": "2026-10-29",
+  "source": "https://www.easycard.com.tw/offer?cls=1506473503,1506473490,1508721809,&id=1788682579",
+  "summary": "2026-10-23 ~ 2026-12-31\n於三個指定期間內，持悠遊卡\n/\n悠遊聯名卡於\n7-ELEVEN\n門市，單筆結帳金額滿\n500\n元享現折\n50\n元優惠\n(\n單筆不累折\n)\n。每月限量\n2\n萬份，送完為止。\n活動期間：\n10/23-10/31\n、\n11/25-11/30\n、\n12/18-12/31\n同享好康",
+  "pays": [
+   "easycard"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 500,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "7-ELEVEN"
+  ]
+ },
+ {
+  "id": "66074",
+  "title": "「天天LINE Pay」優惠延續！指定商圈夜市消費抽最高555點",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66074",
+  "published": "2026-10-19",
+  "source": "https://web-tw-pay.line.me/svc/event/display2/ce715b92-8150-406b-bf42-c71cb56eb427",
+  "summary": "作者：張雅欣\n　　LINE Pay 推出的「天天 LINE Pay」活動延續至年底，週週領500元優惠券，指定日購物、搭車、叫外送皆享回饋。優惠同步串聯全台指定商圈及夜市，用戶使用LINE Pay消費即贈優惠券，最高還可抽LINE POINTS 555點。一站式購買全球旅遊景點門票和交通票券的「找體驗」，週末最高回饋1",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.18,
+  "min_amount": 500,
+  "cap": null,
+  "register": true,
+  "limited": false,
+  "merchants": [
+   "Agoda",
+   "IKEA",
+   "LOPIA",
+   "LaLaport",
+   "SKM Park",
+   "Uber",
+   "Yoxi",
+   "南紡購物中心",
+   "台亞",
+   "台灣中油",
+   "台灣大車隊",
+   "寶雅",
+   "樂家康",
+   "漢神巨蛋",
+   "漢神百貨",
+   "華泰名品城",
+   "萬家福",
+   "迪卡儂"
+  ]
+ },
+ {
+  "id": "66031",
+  "title": "悠遊付買iPhone新機省很大！friDay 最高回饋$2800",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66031",
+  "published": "2026-10-16",
+  "source": null,
+  "summary": "作者：張雅欣\n　　蘋果首款摺疊手機\niPhoneDuo\n要開賣了！悠遊卡公司攜手\nfriDay\n購物推出「\nfriDay\n購物悠遊付－狂購節」優惠活動，自\n10\n月\n16\n日起至\n12\n月\n31\n日止，於活動期間使用悠遊付消費單筆滿\n35,000\n元，可獲得價值\n2,800\n元的\nfriDay\n購物現金回饋券禮包，限量",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.08,
+  "min_amount": 35000,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65947",
+  "title": "漢神巨蛋用台灣Pay　滿2000送200元商品券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65947",
+  "published": "2026-10-13",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M4DC5VG7H94S7BHHS9GTY3RP",
+  "summary": "2026/10/08 - 2026/12/31\n於漢神巨蛋購物廣場使用「台灣\nPay\n」\n(\n透過參與金融機構「行動銀行」\nAPP \n或「台灣行動支付」\nAPP )\n消費之漢神\nPlusAPP\n數位會員，當日消費單筆滿新臺幣\n2,000\n元\n(\n含\n)\n以上者，即可憑漢神\nAPP\n會員條碼、當日發票及交易明細至「贈品處",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "漢神巨蛋"
+  ]
+ },
+ {
+  "id": "65929",
+  "title": "韓國旅遊用LINE Pay　最高25%回饋再抽666點",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65929",
+  "published": "2026-10-12",
+  "source": null,
+  "summary": "作者：張雅欣\n　　迎接年底旅遊旺季，\nLINE Pay\n即日起至年底前，推出韓國熱門消費場景回饋優惠，於韓國指定「吃喝補給」、「旅遊購物」商店消費，可享最高25%回饋，單月累計2筆消費再抽LINE POINTS 666點；至「樂天世界」消費或現場購買門票，不僅可享購票折扣優惠、11月底消費更享指定卡種最高30%回饋。\n",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "linebank",
+   "uniopen"
+  ],
+  "any_card": false,
+  "max_rate": 0.3,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "7-ELEVEN"
+  ]
+ },
+ {
+  "id": "65915",
+  "title": "萊爾富掃歐付寶　消費滿額享10%紅利",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65915",
+  "published": "2026-10-12",
+  "source": "https://www.facebook.com/photo?fbid=1523323326510057&set=a.479342597574807",
+  "summary": "2026/10/01~12/31\n活動期間到萊爾富門市使用歐付寶\nAPP\n付款，消費單筆滿\n 150\n元，即可享\n 10%\n紅利回饋！\n※\n紅利採即時回饋，小數點後四捨五入。\n※\n每位會員活動期間最高回饋\n50\n點紅利。\n※\n回饋依交易時間順序計算，數量有限，送完為止。\n◎注意事項：\n                 ",
+  "pays": [],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": 150,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "萊爾富"
+  ]
+ },
+ {
+  "id": "65890",
+  "title": "OPEN錢包綁定國泰世華卡　滿額享最高10%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/message/detail.php?65890",
+  "published": "2026-10-12",
+  "source": null,
+  "summary": "官方授權申辦\n即日起~2026/12/31，OPEN錢包綁定國泰世華卡，至「7-ELEVEN實體門市」及OPEN錢包指定通路消費，單筆刷卡滿NT$300，享\n10% OPENPOINT\n回饋。\n>>Klook聯手13間銀行，海外商品天天最高折$1,000 \n※每一uniopen會員，每月回饋上限80 點OPENPOIN",
+  "pays": [],
+  "cards": [
+   "cube"
+  ],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": 80,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "7-ELEVEN",
+   "Klook",
+   "星巴克"
+  ]
+ },
+ {
+  "id": "65879",
+  "title": "相揪汐止買菜趣　TWQR獨享20%回饋",
+  "start": "2026-10-08",
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65879",
+  "published": "2026-10-08",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DF97H38K4205DRVJ2VYKJ",
+  "summary": "2026/10/08 - 2926/12/31\n於新北市汐止區秀豐市場、金龍市場、厚德市場、林森市場、汐止觀光夜市，及汐止區農會受理已加入「\nTWQR\n」之指定店家，使用「台灣\nPay\n」\nQR Code\n掃碼支付\n(\n限金融卡\n/\n帳戶\n) \n，單筆消費不限金額可享\n20%\n現金回饋。\n※\n每一金融卡號\n/\n帳戶活動",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": 435000,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65845",
+  "title": "漢神百貨/漢神巨蛋購物廣場　iPASS MONEY月月領優惠券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65845",
+  "published": "2026-10-08",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMIXGEHTS64yy8Ve",
+  "summary": "2026/10/1- 2026/12/31\n活動期間內，月月發放\n iPASS MONEY \n優惠券，請於指定月份於一卡通\n iPASS MONEY APP \n輸入優惠券代碼【漢神超神券】，即可領取漢神百貨\n/\n漢神巨蛋購物廣場兩館通用優惠券\n 100 \n元。\n※\n領取後使用\n iPASS MONEY \n單筆消費滿\n ",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 888,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "LOPIA",
+   "ZARA",
+   "lululemon",
+   "星巴克",
+   "海底撈",
+   "漢神巨蛋",
+   "漢神百貨"
+  ]
+ },
+ {
+  "id": "65847",
+  "title": "三友藥妝嗶一卡通　滿300元現折30元",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65847",
+  "published": "2026-10-07",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCOA2CEE3T645TiON",
+  "summary": "2026/10/01 ~2026/12/31\n於三友藥妝指定門市持一卡通儲值卡功能單筆交易滿\n 300 \n元現折\n 30 \n元。\n※\n單筆交易限折抵一次，不累折。\n※\n活動總折抵上限\n 3,150 \n筆，用完即止，額滿訊息將公布活動頁。\n◎注意事項：\n                                  ",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 300,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "LaLaport"
+  ]
+ },
+ {
+  "id": "65754",
+  "title": "中野安全帽x TWQR　消費享10%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65754",
+  "published": "2026-10-05",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M3RQRFNF47TZRD8068R819G2",
+  "summary": "2026/10/01 - 2026/12/31\n於中野安全帽（中野安全帽有限公司）全台實體門市，使用已加入\n TWQR \n之「電子支付機構\nAPP\n（街口支付\n/\n全盈支付\n/\n全支付\n/\n悠遊付\n/\n一卡通\niPASS MONEY/ icash Pay/\n橘子支付\n/\n歐付寶\n/\n簡單付）」或「台灣\nPay\n（行動銀",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65737",
+  "title": "iPASS MONEY 票卡商店開幕！價值最高2239元福袋500有找",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65737",
+  "published": "2026-10-01",
+  "source": null,
+  "summary": "作者：張雅欣\n　　喜愛收集一卡通造型儲值卡的朋友們，一卡通網路商店正式開幕囉！為了慶祝一卡通網路商店開幕，首波推出全新哈利波特系列「嘿美款證件套絨毛造型一卡通」，柔軟的純白絨毛、神秘智慧的眼神活靈活現，是哈利波特迷不能錯過的商品；另一款則是閃著珠光的吉伊卡哇《除草證》一卡通，以上\n 2 \n款分別售價\n 499 \n元、\n",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65358",
+  "title": "華西街×師大商圈用台灣Pay　筆筆享20%回饋",
+  "start": "2026-09-15",
+  "end": "2026-12-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65358",
+  "published": "2026-09-14",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NSMDTNPBDFSGRJSYJETSM",
+  "summary": "2026/09/15 - 2026/12/31\n於臺北市華西街商圈、臺北市師大龍泉商圈內受理「台灣\nPay\n」之攤商店家，\n使用「台灣\nPay\n」\n (\n限金融卡\n/\n帳戶\n)\n以\nQR Code\n掃碼支付成功，單筆消費不限金額享\n20%\n現金回饋\n(\n非即時回饋，小數點後無條件捨去\n)\n，單筆交易回饋金上限新臺幣\n3",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "64575",
+  "title": "添好運消費用悠遊付　贈招牌冷飲二選一",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64575",
+  "published": "2026-08-05",
+  "source": "https://www.facebook.com/photo/?fbid=1460114059491276&set=a.639758311526859",
+  "summary": "出示畫面享好運！即日起\n~2026/12/31\n至添好運全台門市消費，使用悠遊付消費不限金額，出示悠遊付會員畫面即贈招牌凍檸茶\n or \n港式奶茶（冷）招牌冷飲二選一。\n好運加碼滿額禮\n台北站前店、高雄富民店限定\n使用悠遊付結帳，單筆消費滿 $1,000折 $100！\n>>\nKlook 嚴選星級飯店自助餐券，最低73折",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "KKday",
+   "Klook"
+  ]
+ },
+ {
+  "id": "63900",
+  "title": "LINE Pay綁星展卡消費　金豬食堂享5%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?63900",
+  "published": "2026-07-02",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/c590fed1-1103-432e-82a1-8bc6efb7cf47",
+  "summary": "即日起~2026/12/31，\n每週三\n於金豬食堂用餐消費，結帳時透過LINE Pay並使用已綁定的\n星展銀行信用卡\n付款，享以下優惠：\n優惠一：筆筆享最高LINE POINTS 5%回饋\n每LINE Pay帳號每月最高限得250點；每月限量10萬點，發完為止。\n回饋點數將自付款成功24小時起陸續發放。\n優惠二：現金回",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.12,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "63887",
+  "title": "臨江街觀光夜市超給利　台灣Pay享20%現金回饋",
+  "start": "2026-06-30",
+  "end": "2026-12-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?63887",
+  "published": "2026-07-02",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9",
+  "summary": "2026/06/30 - 2026/12/31\n於臨江街觀光夜市商圈內受理「台灣\nPay\n」交易之店家，使用「台灣\nPay\n」\n(\n限金融卡\n/\n帳戶\n)\n以\nQR Code\n掃碼支付成功，單筆消費不限金額享\n20%\n現金回饋\n(\n小數點後四捨五入，非即時回饋\n)\n，單筆交易回饋金上限新臺幣\n300\n元，於活動期間每一",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": 1000,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "62537",
+  "title": "TWQR今夜留給我　高雄兩大夜市最高享15%",
+  "start": "2026-05-01",
+  "end": "2026-12-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?62537",
+  "published": "2026-04-24",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0S4GQ2RC02CSYYWQNDCDD",
+  "summary": "2026/05/01 - 2026/12/31\n於高雄六合夜市與瑞豐夜市指定\nTWQR\n店家消費，使用支援\nTWQR\n交易之金融機構支付工具，包含「台灣\nPay\n」、電子支付機構\nAPP\n掃描「一卡通\nTWQR\n立牌」進行支付享以下優惠：\n優惠一：掃「一卡通\nTWQR\n立牌」付款享\n10%\n回饋！\n活動期間於高雄六合夜",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.15,
+  "min_amount": null,
+  "cap": 200,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "66388",
+  "title": "全盈+PAY繳地價稅　TWQR 掃碼繳稅最高28%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66388",
+  "published": "2026-11-04",
+  "source": null,
+  "summary": "作者：張雅欣\n　　11\n月地價稅開徵，繳稅也能享回饋！全盈\n+PAY\n推出\nTWQR\n掃碼繳稅服務，民眾透過掃描稅單上的\nTWQR QR Code\n，即可輕鬆完成繳稅，即日起\n-2026/12/31\n單月累積繳費、繳稅滿新台幣\n 1,200\n元限量贈\n 100 \n元全盈儲值金。搭配銀行方案回饋再加乘，即日起\n-2026",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [
+   "friday",
+   "richart",
+   "ubear",
+   "unicard"
+  ],
+  "any_card": false,
+  "max_rate": 0.28,
+  "min_amount": 1200,
+  "cap": 100,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "PChome",
+   "丁丁藥局",
+   "全家",
+   "大樹藥局",
+   "太平洋百貨",
+   "屈臣氏",
+   "微風",
+   "日藥本舖",
+   "漢神巨蛋",
+   "漢神百貨",
+   "美麗華",
+   "鼎王"
+  ]
+ },
+ {
+  "id": "66230",
+  "title": "街口支付11月優惠全攻略》康是美/萬家福/樂家康/Klook/Trip.com接力登場",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66230",
+  "published": "2026-10-28",
+  "source": null,
+  "summary": "作者：張雅欣\n　　11 \n月街口支付好康優惠來囉！攜手康是美、萬家福、樂家康、\nKlook \n及\n Trip.com\n，好康從日常採買一路延伸到出國玩樂！康是美滿額現折再加碼\n 7% \n街口幣回饋、萬家福與樂家康週日採買享\n 18% \n優惠，\nKlook \n週日最高享\n 25% \n優惠，\nTrip.com \n更祭出飯店",
+  "pays": [
+   "jkopay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.25,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": false,
+  "merchants": [
+   "Klook",
+   "Trip.com",
+   "康是美",
+   "樂家康",
+   "萬家福"
+  ]
+ },
+ {
+  "id": "66104",
+  "title": "一卡通「點點成金好康升級」　兌換一卡通綠點贈優惠券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66104",
+  "published": "2026-10-20",
+  "source": "www.i-pass.com.tw/Preferential/Detail/GM2DENQ4PH4Z264I2izd",
+  "summary": "作者：張雅欣\n　　一卡通響應淨零減碳政策，透過\n iPASS MONEY \n結合「一卡通綠點」回饋機制，打造綠色消費生態圈。一卡通公司加入環境部「環保集點」計畫，推出「點點成金，好康再升級」活動，自\n 10 \n月\n 20 \n日起至\n 12 \n月\n 31 \n日止，民眾只要使用環保綠點成功兌換一卡通綠點，即可獲得\n 50 ",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66007",
+  "title": "一卡通iPASS MONEY再升級！新增eTag儲值、遠傳電信帳單查繳",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66007",
+  "published": "2026-10-15",
+  "source": null,
+  "summary": "作者：張雅欣\n　　一卡通持續擴大\n iPASS MONEY APP \n生活繳費服務版圖，生活繳費服務涵蓋逾\n8,400\n項繳費項目，宣布新增\neTag\n儲值及遠傳電信帳單查繳功能，成為首家完整提供中華電信、台灣大哥大及遠傳電信三大電信業者帳單繳費服務的電子支付業者。\neTag\n儲值新選擇！綁定車號，手機就能快速加值\n　",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65795",
+  "title": "全支付10月回饋攻略》 火鍋季最高20%、玉山Unicard週三全聯滿千送百",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65795",
+  "published": "2026-10-05",
+  "source": null,
+  "summary": "作者：張雅欣\n　　全支付推出「10月生活回饋全攻略」，集結多品牌活動優惠！全支付綁定「\n玉山銀行Unicard\n」信用卡，每週三於全聯、大全聯單筆消費滿1,000元，贈100點玉山e point；入秋「火鍋季」指定鍋物品牌連結\n國泰世華銀行\n帳戶滿額最高享20%全點回饋，foodpanda外送連結帳戶付款最高享5%全點",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [
+   "ubear",
+   "unicard"
+  ],
+  "any_card": true,
+  "max_rate": 0.2,
+  "min_amount": 1000,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "foodpanda",
+   "全聯",
+   "台灣大車隊"
+  ]
+ },
+ {
+  "id": "65753",
+  "title": "iPASS MONEY【手機門號轉轉樂】　筆筆轉帳樂抽168點綠點",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65753",
+  "published": "2026-10-02",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C",
+  "summary": "2026/10/1~ 2026/12/31 \n活動期間內，將\niPASS MONEY\n綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳，即可獲得一卡通綠點\n 168 \n點抽獎機會\n(\n每月共抽出\n 30 \n名，活動期間每人限中獎\n 1 \n次\n)\n。\n獲得抽獎機會方式一：筆筆轉帳享抽獎機會\n透過\n iPASS MO",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 100,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65725",
+  "title": "玉山Unicard卡綁定全盈+PAY　全家消費享5%回饋",
+  "start": "2026-10-01",
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/message/detail.php?65725",
+  "published": "2026-10-02",
+  "source": null,
+  "summary": "官方授權申辦\n2026/10/1~2026/12/31\n持\n玉山銀行信用卡\n首次綁定全盈\n+PAY\n享以下優惠：\n【首綁滿額禮】\n活動期間：\n2026/10/1~2026/12/31\r\n玉山信用卡首次綁定全盈\n+PAY\n，於全適用通路消費，單筆滿\n238\n元，享\n68\n點玉山\ne point\n回饋！\n(1\n點＝\n1\n元",
+  "pays": [],
+  "cards": [
+   "ubear",
+   "unicard"
+  ],
+  "any_card": false,
+  "max_rate": 0.05,
+  "min_amount": 238,
+  "cap": 68,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "全家"
+  ]
+ },
+ {
+  "id": "65710",
+  "title": "LINE Pay Money 賺點密技》乘車碼搭大眾運輸月月最高30%回饋！",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65710",
+  "published": "2026-09-30",
+  "source": null,
+  "summary": "作者：張雅欣\n　　LINE Pay Money人氣賺點密技大公開！「LINE Pay Money乘車碼月月享回饋最高30%」好評延長至年底；邀好友開通LINE Pay Money帳戶、未成年開通帳戶，都可獲得優惠券，消費時可立即折抵。LINE Pay Money用戶還可透過LINE Pay「點好康」，解遊戲任務賺LIN",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.3,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "7-ELEVEN"
+  ]
+ },
+ {
+  "id": "65608",
+  "title": "【旅電科技】iPASS MONEY 付款　樂享10%回饋再送2小時借電券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65608",
+  "published": "2026-09-23",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNYDQKTX564d2xFQ",
+  "summary": "2026/9/18 - 2026/12/31\n活動期間於旅電\n APP \n使用\n iPASS MONEY \n付款租借旅電科技行動電源，享以下優惠：\n【優惠一】累積付款滿百送\n 2 \n小時借電券\n每月累積付款金額每滿\n 100 \n元贈旅電科技\n 2 \n小時借電券一張\n (\n市價\n 30 \n元\n)。\n※每人每月限得\n 3 ",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": 100,
+  "cap": 200,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65627",
+  "title": "LINE Pay Money 新增北市路邊停車費繳費　66張「好樂投」抽獎券霸氣送",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65627",
+  "published": "2026-09-23",
+  "source": null,
+  "summary": "作者：張雅欣\n　　電子支付LINE Pay Money持續拓展多元服務，自9月起新增台北市路邊停車費繳納服務。此外，歡慶LINE Pay Money榮獲第23屆國家品牌玉山獎「最佳人氣品牌」肯定，回饋廣大LINE Pay Money用戶，無論新舊戶至年底前可獨家領取66張「好樂投」抽獎券，最高可獲得LINE POINT",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "ubear",
+   "unicard"
+  ],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65395",
+  "title": "全支付xTrip.com！每週二預訂日韓機票飯店最高現折1300 元",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65395",
+  "published": "2026-09-11",
+  "source": null,
+  "summary": "作者：張雅欣\n　　全支付即日起攜手國際旅遊平台 Trip.com 台灣站及 App，宣布支援全支付付款，用戶每週二預訂日韓機票與飯店皆可使用全支付結帳，單筆最高現折1,300元。同時，全支付大眾運輸與生活場景持續擴大，除了響應台鐵新制開放列車上使用全支付補票外，「乘車碼」適用範圍亦自雙北延伸至基隆市公車，扣款成功即可領",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.05,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "EZTABLE",
+   "Trip.com",
+   "全聯"
+  ]
+ },
+ {
+  "id": "65278",
+  "title": "iPASS MONEY「好禮券」專區上線！購券最高30%再享綠點10%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65278",
+  "published": "2026-09-07",
+  "source": null,
+  "summary": "作者：張雅欣\n　　數位票券逐漸融入民眾日常生活，成為另類消費選擇。一卡通持續豐富\n iPASS MONEY APP \n功能，近期攜手精誠資訊打造「好禮券」專區，提供民眾一站式瀏覽、購買及使用數位票券服務，滿足吃喝玩樂、生活消費及優惠搜尋等需求。歡慶「好禮券」專區上線，即日起至\n12\n月\n31\n日，集結統一集團、星巴克、",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.3,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "KKday",
+   "Klook",
+   "Mister Donut",
+   "Yoxi",
+   "必勝客",
+   "星巴克",
+   "肯德基"
+  ]
+ },
+ {
+  "id": "65033",
+  "title": "臺北市敬老/愛心悠遊卡消費　15大通路優惠整理",
+  "start": "2026-09-01",
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65033",
+  "published": "2026-08-26",
+  "source": null,
+  "summary": "作者：張雅欣\n臺北市\n115\n年度重陽敬老禮金即將於\n9\n月\n7\n日開放領取，悠遊卡公司今年再攜手\n15\n大活動通路，包括\n7-ELEVEN\n、全家、萊爾富、全聯福利中心、美廉社、義美、聖德科斯、棉花田、新東陽、康是美、杏一、維康、必勝客、肯德基及環球購物中心等，自\n9\n月\n1\n日起開跑，長者持臺北市敬老\n/\n愛心悠遊",
+  "pays": [
+   "easycard"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 1.0,
+  "min_amount": 500,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "7-ELEVEN",
+   "KKday",
+   "Klook",
+   "YouBike",
+   "全家",
+   "全聯",
+   "康是美",
+   "必勝客",
+   "杏一",
+   "環球購物中心",
+   "美廉社",
+   "肯德基",
+   "萊爾富"
+  ]
+ },
+ {
+  "id": "64877",
+  "title": "悠遊卡公司x淡江大學　全台首創TWQR智慧校園",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64877",
+  "published": "2026-08-19",
+  "source": null,
+  "summary": "作者：張雅欣\n　　TWQR\n正式走進校園！悠遊卡公司宣布攜手淡江大學打造全台首創智慧校園收付平台，由於淡江大學自主研發的「淡江智慧收付平台」與「智慧自動繳費機（\nKiosk\n）」正式完成\nTWQR\n規格串接，成為全台首所導入\nTWQR\n校園收付應用的大專院校。即日起，全校師生及家長只需透過悠遊付\nTWQR\n，或使用支援",
+  "pays": [
+   "easycard",
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "64673",
+  "title": "歡慶上線！台中銀行x悠遊付首綁消費贈150元",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64673",
+  "published": "2026-08-12",
+  "source": "https://www.facebook.com/photo/?fbid=1498781122293296&set=a.648999520604798",
+  "summary": "2026/8/3~2026/12/31\n台中銀行\nx\n悠遊付歡慶上線，綁定享以下優惠：\n【數位存款帳戶禮】\n活動期間使用悠遊付綁定台中銀行「\nLolly Bank\n數位存款帳戶」，並以該帳戶直接扣款消費單筆\n200\n元\n(\n含\n)\n以上，享\n150\n元悠遊付回饋金。\n(\n限額\n1,500\n名，額滿為止\n)。\n【一般存款",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "64380",
+  "title": "iPASS一卡通協助三縣市升級社福卡服務！推敬老卡創新應用",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64380",
+  "published": "2026-07-24",
+  "source": null,
+  "summary": "作者：張雅欣\n　　iPASS\n一卡通公司持續協助地方政府推動智慧社福服務，透過儲值卡智慧支付基礎服務，串聯交通、健康促進及在地消費等多元場域，讓社福卡不只是交通支付工具，更成為長者日常生活的重要夥伴。今年\n7\n月起，高雄市、苗栗縣及嘉義縣陸續推出敬老卡創新應用，進一步提升長者生活便利性，打造更完善的高齡友善生活圈。\n　",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": 100,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "64092",
+  "title": "臺灣銀行 x  台灣Pay　筆筆享1.5%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/message/detail.php?64092",
+  "published": "2026-07-13",
+  "source": null,
+  "summary": "即日起~2026/12/31，以「台灣 Pay」綁定臺灣銀行金融卡(帳號)進行支付掃碼購物交易，每筆消費扣款金額即享\n1.5%\n「台灣Pay紅利點數」回饋(小數點後四捨五入)。\r\n*每一用戶採身分證字號歸戶，每月回饋上限「台灣Pay紅利點數」1,000 點。\n(每10點「台灣Pay紅利點數」價值等同於新臺幣1元。)\r\n",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.015,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "63700",
+  "title": "iPASS MONEY繳聯邦信用卡費　月月最高享200點回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?63700",
+  "published": "2026-06-23",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMQM2CV7T646j9h1",
+  "summary": "2026/6/17 - 2026/12/31\n活動期間使用\n iPASS MONEY \n繳納\n聯邦銀行信用卡\n費，並於\n iPASS MONEY APP \n綁定任一張聯邦信用卡，當月繳納聯邦信用卡費之總額享一卡通綠點\n 1% \n回饋。每人每月回饋上限\n 200 \n點，活動總回饋上限\n 1,500 \n萬點（一卡通綠點\n ",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [
+   "linebank"
+  ],
+  "any_card": false,
+  "max_rate": 0.01,
+  "min_amount": null,
+  "cap": 200,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "63103",
+  "title": "iPASS MONEY升級「優惠券兌換功能」！限時送50元全通路優惠券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?63103",
+  "published": "2026-05-25",
+  "source": null,
+  "summary": "作者：張雅欣\n　　一卡通公司旗下電子支付服務「iPASS MONEY」，宣布正式升級「優惠券兌換功能」，推出「極速兌換」及「自動兌換」兩大新功能，讓用戶從消費到回饋入帳更加即時便利，全面提升支付體驗。同時，為歡慶功能升級，一卡通公司更加碼推出限時領取全通路50元優惠券活動，邀請用戶搶先體驗全新優惠券兌換機制。\n　　用戶",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65087",
+  "title": "卡片餘額不足免煩惱！一卡通雙北公車自動加值服務上線",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "交通",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65087",
+  "published": "2026-08-28",
+  "source": null,
+  "summary": "作者：張雅欣\n　　雙北的公車族再也不用擔心卡片餘額不足了！自\n2026\n年\n7\n月\n1\n日起，台北市聯營公車、新北市市區公車全面啟動自動加值服務，持一卡通聯名卡當卡片餘額低於\n100\n元，使用驗票機將自動扣款加值\n 500 \n元，民眾不用因為餘額不足特別跑一趟捷運站或超商，大幅節省時間並有效提升便利性。\n　　民眾持一卡",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "7-ELEVEN",
+   "全家"
+  ]
+ },
+ {
+  "id": "64808",
+  "title": "基北北桃「我的減碳存摺」再加碼！減碳兌現金、抽筆電、機票等好禮",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "交通",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64808",
+  "published": "2026-08-17",
+  "source": null,
+  "summary": "作者：張雅欣\n　　搭乘大眾交通運具不僅能減碳，還能賺回饋！基北北桃四市攜手推出「我的減碳存摺」全民運動，於\n8\n月\n1\n日起，再祭出「月月兌加碼活動」與「加碼月月抽活動」兩大獎勵方案，自即日起到\n12\n月\n31\n日，只要累積減碳達\n5\n公斤，就有機會兌換「無車出行悠遊付\n15\n元公車回饋金」，好康多重送！\n【月月兌加碼",
+  "pays": [
+   "easywallet"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": true,
+  "limited": false,
+  "merchants": [
+   "中華航空"
+  ]
+ },
+ {
+  "id": "64801",
+  "title": "【WeMo】綁定 iPASS MONEY　扣款送50元騎乘券",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "交通",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64801",
+  "published": "2026-08-17",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMQVOGGMI64EFjxC",
+  "summary": "2026/8/14~ 2026/12/31\n活動期間於\n WeMo App \n綁定\n iPASS MONEY \n扣款，並使用\n iPASS MONEY \n扣款租借\n WeMo \n樂享以下優惠：\n優惠一：綁定\n iPASS MONEY \n扣款任一筆，即享\n WeMo \n騎乘券\n 50 \n元\n※\n活動期間每人限得一次，\n5",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "63970",
+  "title": "搭雙北公車也能自動加值　悠遊卡自動加值上線滿月",
+  "start": "2026-06-29",
+  "end": "2026-12-31",
+  "category": "交通",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?63970",
+  "published": "2026-08-03",
+  "source": null,
+  "summary": "作者：張雅欣\n　　搭公車再也不用擔心悠遊卡餘額不足了！自\n7\n月\n1\n日起，悠遊聯名卡、簽帳金融卡（\nDebit\n卡）與帳戶連結悠遊卡在臺北市聯營公車及新北市市區公車正式開通自動加值服務。至今\n上線滿一個月即吸引逾萬名民眾使用，累計完成逾20萬筆自動加值交易，顯示公車自動加值服務深受通勤族肯定。\n>>\nKlook 嚴選",
+  "pays": [
+   "easycard"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "KKday",
+   "Klook"
+  ]
+ },
+ {
+  "id": "65807",
+  "title": "全支付首綁台新卡　滿額送全點50點",
+  "start": null,
+  "end": "2027-01-03",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/message/detail.php?65807",
+  "published": "2026-10-07",
+  "source": null,
+  "summary": "官方授權申辦\n2026/09/28~2027/01/03\n以全支付綁定\n台新銀行信用卡\n享以下優惠：\n活動一\n首次以全支付綁定台新信用卡，不限通路首筆支付滿\n299\n元回饋全點\n50\n點\n(\n每週限量\n700\n份，共計\n9,800\n份\n)\n。\n*\n限未曾使用任何一張台新信用卡於全支付綁定之卡友參與，並以全支付系統判定為",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [
+   "friday",
+   "richart"
+  ],
+  "any_card": false,
+  "max_rate": 0.02,
+  "min_amount": 299,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "全聯"
+  ]
+ },
+ {
+  "id": "66405",
+  "title": "桃園市復興區掃TWQR　筆筆享10%回饋",
+  "start": null,
+  "end": "2027-01-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66405",
+  "published": "2026-11-05",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M63D4547P7HH9SF5VK24H56G",
+  "summary": "2026/11/01 - 2027/01/31\n於桃園市復興區標示\nTWQR\n店家，使用參與機構，即已加入\nTWQR\n之「台灣\n Pay\n」\n(\n行動銀行\n/\n台灣行動支付\nAPP\n，限金融卡\n/\n帳戶\n)\n、街口支付、歐付寶、橘子支付、全盈\n+PAY\n、全支付、\nicash Pay\n、一卡通\niPASS MONEY\n",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66248",
+  "title": "東森購物刷台灣Pay　回饋加倍享20%",
+  "start": "2026-11-01",
+  "end": "2027-01-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66248",
+  "published": "2026-10-30",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M5Y99J3JWCWNDS6JBSE5FY0P",
+  "summary": "2026/11/01 - 2027/01/31\n於東森購物網及東森購物\nAPP\n，使用「台灣\nPay\n」付款（金融卡\n/\n帳戶\n/\n信用卡\n)\n，單筆消費不限金額享\n20%\n現金回饋，單筆交易最高回饋新臺幣\n1,000\n元。\n※\n活動回饋總金額\n55\n萬元為上限，額滿為止，並公告於兆豐銀行官網。\n◎注意事項：\n    ",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "東森購物"
+  ]
+ },
+ {
+  "id": "64918",
+  "title": "迺延三夜市用TWQR　「台灣Pay」樂享20%回饋",
+  "start": null,
+  "end": "2027-01-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?64918",
+  "published": "2026-08-24",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P02S3DCNG40XPWX4E80H0",
+  "summary": "2026/08/13 - 2027/01/31\n於大橋頭延三商圈受理「台灣\nPay\n」交易之店家，使用「台灣\nPay\n」\nQR Code\n掃碼支付成功者，單筆消費不限金額可享\n20%\n之現金回饋，活動期間內每金融卡\n/\n帳戶最高回饋以\n500\n元為限，活動回饋總金額上限\n30\n萬元，如達回饋總金額上限，即停止回饋，並公",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "KKday"
+  ]
+ },
+ {
+  "id": "66288",
+  "title": "全支付ｘSamsung Wallet！一機搞定付款、乘車刷卡、帳戶儲值",
+  "start": "2026-11-01",
+  "end": "2027-01-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66288",
+  "published": "2026-10-30",
+  "source": null,
+  "summary": "作者：張雅欣\n　　全支付今（30）日宣布進駐Samsung Wallet，成為首家與內建手機錢包整合的電子支付品牌。自 11 月 1 日起，2022 年起上市的各款 Samsung Galaxy 手機用戶只要在Samsung Wallet輕鬆新增全支付，即可一機搞定手機付款、乘車刷卡、帳戶儲值及活動登錄；PX Pay升",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [
+   "cube"
+  ],
+  "any_card": false,
+  "max_rate": 0.05,
+  "min_amount": 800,
+  "cap": null,
+  "register": true,
+  "limited": true,
+  "merchants": [
+   "Samsung",
+   "全聯"
+  ]
+ },
+ {
+  "id": "65182",
+  "title": "北護大繳費機導入悠遊付TWQR　校務規費掃碼一機搞定",
+  "start": "2026-09-01",
+  "end": "2027-01-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65182",
+  "published": "2026-09-03",
+  "source": null,
+  "summary": "作者：張雅欣\n　　年輕世代行動支付日益普及，國立臺北護理健康大學正式啟動校園數位支付新里程！悠遊卡公司攜手國立臺北護理健康大學，正式將悠遊付\nTWQR\n跨機構支付規格導入校內智慧自動繳費機（\nKiosk\n），讓北護大成為全台第一所校務行政規費全面支援\nTWQR\n被掃支付的國立大學。\n　　即日起，師生、教職員及校友申辦中",
+  "pays": [
+   "easywallet",
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.03,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65675",
+  "title": "新社大安消費用TWQR　筆筆享10%回饋",
+  "start": "2026-10-01",
+  "end": "2027-03-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65675",
+  "published": "2026-09-30",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DH7MX5RKQT8TFRGSSZCBF",
+  "summary": "2026/10/01 - 2027/03/31\n於台中市新社區、大安區標示\nTWQR\n店家，使用參與機構，即已加入\nTWQR\n之「台灣\n Pay\n」\n(\n行動銀行\n/\n台灣行動支付\nAPP\n，限金融卡\n/\n帳戶\n)\n、街口支付、歐付寶、橘子支付、全盈\n+PAY\n、全支付、\nicash Pay\n、一卡通\niPASS MO",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.1,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "65585",
+  "title": "米炭火燒肉品牌掃台灣Pay　筆筆享20%回饋",
+  "start": "2026-09-25",
+  "end": "2027-03-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65585",
+  "published": "2026-09-23",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBDPHSJF8C5A9ESQAP4AM75",
+  "summary": "2026/09/25 - 2027/03/31\n於米炭火燒肉品牌受理「台灣\nPay\n」之指定門市，以「台灣\n Pay\n」\nQR Code \n掃碼進行支付\n(\n金融卡\n/\n帳戶\n)\n，單筆消費不限金額可享\n20%\n現金回饋\n(\n非即時回饋，金額小數點後四捨五入\n)\n，每一金融卡\n/\n帳戶於活動期間內回饋最高以新臺幣\n1,",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "65556",
+  "title": "艋舺夜市掃台灣Pay　單筆享20%現金回饋",
+  "start": "2026-10-01",
+  "end": "2027-03-31",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65556",
+  "published": "2026-09-22",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBDSM6DXNFC5Q2GET6PM705",
+  "summary": "2026/10/01 - 2027/03/31\n於艋舺夜市等商圈受理「台灣\nPay\n」交易之店家，使用「台灣\nPay\n」\n (\n限金融卡\n/\n帳戶\n)\n以\nQR Code\n掃碼支付成功，單筆消費不限金額享\n20%\n現金回饋，單筆交易回饋金上限新臺幣\n300\n元，於活動期間每一金融卡號\n/\n帳戶最高回饋上限\n1,000\n",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": 1000,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66086",
+  "title": "仁愛市場用台灣Pay　樂享20%回饋",
+  "start": "2026-10-20",
+  "end": "2027-04-30",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66086",
+  "published": "2026-10-21",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25D9EP31SW49V1ETM0V01JX",
+  "summary": "2026/10/20 - 2027/04/30\n於基隆仁愛市場受理「台灣\nPay\n」交易之店家，使用「台灣\nPay\n」\nQR Code\n掃碼\n(\n限金融卡\n/\n帳戶\n)\n進行支付，單筆消費不限金額可享\n20%\n之現金回饋。\n※\n活動期間內每金融卡\n/\n帳戶最高回饋以\n1,000\n元為限，活動回饋總金額上限\n50 \n萬元",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66278",
+  "title": "築間餐飲集團掃台灣Pay　筆筆享20%回饋",
+  "start": "2026-11-01",
+  "end": "2027-04-30",
+  "category": "美食",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66278",
+  "published": "2026-11-02",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DDM2VD0W59AVTN06AY48Z",
+  "summary": "2026/11/01 - 2027/04/30\n於築間餐飲集團受理「台灣\n Pay\n」之指定實體門市，使用「台灣\nPay\n」付款條碼\n(\n金融卡\n/\n帳戶\n/\n信用卡\n)\n進行支付，單筆結帳不限金額享\n20%\n回饋，每金融卡\n/\n帳戶\n/\n信用卡於活動期間回饋上限新臺幣\n500\n元。\n活動非即時回饋，小數點後四捨五入，",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ },
+ {
+  "id": "66206",
+  "title": "球賽熱血+女團魅力！兩大主題icash2.0一次收藏！",
+  "start": "2026-10-22",
+  "end": "2027-04-30",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66206",
+  "published": "2026-10-27",
+  "source": null,
+  "summary": "作者：張雅欣\n　　荷包準備失守！愛金卡公司一次推出兩大主題\nicash 2.0\n，集結中華職棒強悍球員及球場熱血應援，話題系列\nicash2.0\n接力登場，瞄準粉絲們的錢包！\n　　除了新款\nicash2.0\n上市，愛金卡公司更針對近期油價上漲推出\nicash2.0\n加油回饋活動：\n2026/10/1-2026/12/3",
+  "pays": [],
+  "cards": [
+   "momo"
+  ],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": [
+   "7-ELEVEN"
+  ]
+ },
+ {
+  "id": "66186",
+  "title": "三峽鶯歌商圈用台灣Pay　消費享20%回饋",
+  "start": null,
+  "end": "2027-05-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66186",
+  "published": "2026-10-27",
+  "source": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DACEE89W46XVEVBD8YVBN",
+  "summary": "2026/10/19 - 2027/05/31\n至三峽鶯歌商圈內受理「台灣\nPay\n」交易之指定攤商店家，\n使用「台灣\nPay\n」\nQR Code\n掃碼進行支付\n (\n限金融卡\n/\n帳戶\n) \n，單筆消費不限金額可享\n20%\n回饋。\n※\n單筆交易回饋金上限新臺幣\n1,000\n元，活動期間每一金融卡號\n/\n帳戶最高回饋\n",
+  "pays": [
+   "twpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.2,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": true,
+  "merchants": []
+ }
+]

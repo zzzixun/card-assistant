@@ -8,6 +8,10 @@ import streamlit as st
 from card_assistant.engine import (current_usage, expiring, load_db, load_state, recommend,
                                    record, resolve_merchant, save_state, suggest_merchants)
 
+from card_assistant.promos import OUT as PROMOS_PATH
+from card_assistant.promos import load as load_promos
+from card_assistant.promos import relevant
+
 DATA = Path(__file__).parent / "data"
 PAY_LABEL = {"card": "刷卡/Apple Pay", "linepay": "LINE Pay", "pxpay_plus": "全支付",
              "easywallet": "悠遊付", "taishinpay": "台新Pay", "icashpay": "icash Pay",
@@ -42,7 +46,22 @@ with st.sidebar:
 
 st.title("💳 刷卡建議助理")
 
-tab_q, tab_plan, tab_todo = st.tabs(["🔍 刷哪張卡", "🔄 權益方案總覽", "📌 待登錄 / 即將到期"])
+tab_q, tab_promo, tab_plan, tab_todo = st.tabs(
+    ["🔍 刷哪張卡", "🎁 行動支付優惠", "🔄 權益方案總覽", "📌 待登錄 / 即將到期"])
+promos = load_promos()
+CARD_NAME = {c["id"]: c["name"] for c in db["cards"]}
+
+
+def promo_table(rows):
+    return pd.DataFrame([{
+        "截止": p.get("end") or "—", "活動": p["title"],
+        "跟我有關": "、".join([PAY_LABEL.get(x, x) for x in p.get("mine_pay", [])]
+                         + [CARD_NAME.get(x, x) for x in p.get("mine_card", [])]) or "不限卡",
+        "最高": f"{p['max_rate']:.0%}" if p.get("max_rate") else "",
+        "門檻": p.get("min_amount"), "上限": p.get("cap"),
+        "需登錄": "✔" if p.get("register") else "", "限量": "✔" if p.get("limited") else "",
+        "連結": p["url"],
+    } for p in rows])
 
 # ───────── 1. 查詢 ─────────
 with tab_q:
@@ -85,6 +104,33 @@ with tab_q:
                 st.toast("已記錄，扣掉上限：" + ("、".join(f"{k} {v:.0f}" for k, v in used.items())
                                               if used else "這筆沒有上限限制"))
                 st.rerun()
+
+        related = relevant(promos, state, name, on)
+        if related:
+            st.markdown(f"#### 🎁 {name} 相關的行動支付 / 刷卡活動（{len(related)}）")
+            st.dataframe(promo_table(related), hide_index=True, width="stretch",
+                         column_config={"連結": st.column_config.LinkColumn(display_text="看活動")})
+            st.caption("活動條件由文章自動擷取，可能不完整，請點連結確認。這些活動不會算進上面的排名。")
+
+# ───────── 行動支付優惠 ─────────
+with tab_promo:
+    if not promos:
+        st.info("還沒有優惠資料。在終端機執行：python -m card_assistant.promos")
+    else:
+        f1, f2, f3 = st.columns([2, 2, 1])
+        kw = f1.text_input("搜尋（店名、活動）", key="promo_kw")
+        only_mine = f2.toggle("只看跟我的卡 / 支付有關的", value=True)
+        need_reg = f3.toggle("只看需登錄")
+        rows = relevant(promos, state) if only_mine else promos
+        if kw:
+            rows = [p for p in rows if kw.lower() in (p["title"] + p.get("summary", "")).lower()
+                    or kw in p.get("merchants", [])]
+        if need_reg:
+            rows = [p for p in rows if p.get("register")]
+        st.caption(f"共 {len(rows)} 筆（資料來源：卡優新聞網「優支付」，"
+                   f"最後更新 {date.fromtimestamp(PROMOS_PATH.stat().st_mtime)}）")
+        st.dataframe(promo_table(rows), hide_index=True, width="stretch",
+                     column_config={"連結": st.column_config.LinkColumn(display_text="看活動")})
 
 # ───────── 2. 方案總覽 ─────────
 with tab_plan:

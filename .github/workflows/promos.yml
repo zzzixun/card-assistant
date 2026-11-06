@@ -1,0 +1,29 @@
+# 每週一早上 8 點（台灣時間）自動更新行動支付優惠，有變動就 commit 回 repo。
+# Streamlit Cloud 會偵測到新 commit 自動重新部署，demo 上的優惠就會是新的。
+name: 更新行動支付優惠
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # UTC 週一 00:00 = 台灣 08:00
+  workflow_dispatch:       # 也可以在 GitHub 的 Actions 頁面手動按 Run
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml requests
+      - run: python -m card_assistant.promos --pages 3
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/promos.json
+          git diff --cached --quiet || git commit -m "chore: 更新行動支付優惠 $(date +%F)"
+          git push
