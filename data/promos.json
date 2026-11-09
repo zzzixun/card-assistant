@@ -201,6 +201,30 @@
   ]
  },
  {
+  "id": "66421",
+  "title": "SABON x LINE Pay　消費最高享17%回饋",
+  "start": null,
+  "end": "2026-11-12",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66421",
+  "published": "2026-11-06",
+  "source": "https://web-tw-pay.line.me/cms/event/template1.3/808901b7-e246-4d1f-b776-1aaa27db1e0d",
+  "summary": "即日起~2026/11/12，於SABON台灣官網消費，結帳時透過LINE Pay使用已綁定的任一發卡銀行信用卡/簽帳金融卡付款，享\nLINE POINTS 11%\n點數回饋。\n(每LINE Pay帳號單筆交易最高限得 200 點。)\n※回饋點數將自付款成功24小時起陸續發放。\n【中國信託LINE Pay卡】\n使用已綁",
+  "pays": [
+   "linepay"
+  ],
+  "cards": [
+   "uniopen"
+  ],
+  "any_card": true,
+  "max_rate": 0.17,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
   "id": "66386",
   "title": "正官庄 x LINE Pay　單筆滿額享11%回饋",
   "start": null,
@@ -1513,6 +1537,134 @@
   "merchants": [
    "KKday",
    "Klook"
+  ]
+ },
+ {
+  "id": "66371",
+  "title": "SKM Park Outlets高雄草衙　iPASS MONEY滿額抽造型一卡通",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "購物",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66371",
+  "published": "2026-11-06",
+  "source": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA",
+  "summary": "2026/11/2 ~ 2026/12/31\n活動期間新光三越會員於\n SKM Park Outlets \n高雄草衙現場消費，使用一卡通\n iPASS MONEY APP \n開啟「付款碼」付款，當日累積消費滿\n 599 \n元，可獲得\n 1 \n次造型一卡通（市值\n 550 \n元）抽獎機會。（每帳號限\n 1 \n次抽獎機會，",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": 599,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "SKM Park",
+   "健身工廠",
+   "全家",
+   "寶雅",
+   "新光三越"
+  ]
+ },
+ {
+  "id": "66453",
+  "title": "迪士尼迷尖叫！鼠條夾造型一卡通必收藏，這些通路開放預購",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?66453",
+  "published": "2026-11-06",
+  "source": null,
+  "summary": "作者：張雅欣\n　　米奇控絕對不能錯過！\n iPASS\n一卡通推出全新迪士尼「鼠條夾造型一卡通」，將迪士尼經典角色米奇結合創意巧思化身為趣味十足的零食夾，不僅保有日常交通、消費的實用功能，同時把角色的可愛魅力融入生活中，讓生活增添療癒感。「鼠條夾」每個售價\n 799 \n元，即日起於各通路預購販售。\n2026 KKday折",
+  "pays": [
+   "ipass"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "7-ELEVEN",
+   "KKday",
+   "momo",
+   "萊爾富"
+  ]
+ },
+ {
+  "id": "65859",
+  "title": "icash Pay台亞石油、怡客合作新上線！消費最高享17%回饋",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65859",
+  "published": "2026-10-07",
+  "source": null,
+  "summary": "作者：張雅欣\n　　愛金卡公司旗下\nicash Pay\n持續拓展支付新據點，攜手台亞石油正式上線，即日起，台亞加油站人工島可以使用\nicash Pay\n付款；此外，\nicash Pay\n於餐飲業態也迎來知名連鎖咖啡品牌\nikari\n怡客加入合作通路行列。歡慶兩大全新通路合作上線，祭出\nOPENPOINT\n點數回饋活動。\n",
+  "pays": [
+   "icashpay"
+  ],
+  "cards": [],
+  "any_card": false,
+  "max_rate": 0.17,
+  "min_amount": 200,
+  "cap": 100,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "台亞",
+   "台塑石油"
+  ]
+ },
+ {
+  "id": "65090",
+  "title": "免費喝鮮奶福利再擴大　8/31起北部三市國中生也能領",
+  "start": "2026-09-01",
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/mpay/detail.php?65090",
+  "published": "2026-08-28",
+  "source": null,
+  "summary": "作者：張雅欣\n　　免費喝鮮奶福利再擴大！\n8\n月\n31\n日起，設籍在臺北市、新北市及桃園市的國中生，每週只要「嗶」一下，就能免費兌領一瓶鮮奶或豆漿！隨著各縣市政府擴大鮮奶補助對象，臺北市預計新增約\n6.7\n萬名、新北市約\n10\n萬名、桃園市約\n7\n萬名國中生受惠，總計將新增\n23.7\n萬名國中生加入免費領鮮奶的福利行列",
+  "pays": [],
+  "cards": [],
+  "any_card": false,
+  "max_rate": null,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": []
+ },
+ {
+  "id": "62741",
+  "title": "國泰世華銀行攜手全聯、全家！首創三大支付小樹點即時消費折抵功能",
+  "start": null,
+  "end": "2026-12-31",
+  "category": "生活",
+  "url": "https://www.cardu.com.tw/message/detail.php?62741",
+  "published": "2026-05-05",
+  "source": null,
+  "summary": "作者：張雅欣\n官方授權申辦\n國泰世華\n今\n(5)\n日宣布，聯手全聯集團及全家便利商店，啟動跨業點數生態圈策略合作，首創將「小樹點\n(\n信用卡\n)\n即時折抵服務」直接內嵌於全支付、「全家」\nMy FamiPay\n、全盈\n+PAY\n等支付工具中，打造跨平台、即時折抵的點數應用新模式，強化點數在日常的「即用性」。\n>>Klo",
+  "pays": [
+   "pxpay_plus"
+  ],
+  "cards": [
+   "cube"
+  ],
+  "any_card": false,
+  "max_rate": 1.0,
+  "min_amount": null,
+  "cap": null,
+  "register": false,
+  "limited": false,
+  "merchants": [
+   "Klook",
+   "全家",
+   "全聯"
   ]
  },
  {
